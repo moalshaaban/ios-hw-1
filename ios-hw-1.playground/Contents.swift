@@ -5,17 +5,17 @@
  
  */
 
-let name = "Ahmad"
+let name = "mohamed"
 
-name = "Salem"
+let Name = "salem"
 
 
-var myWeight = 60
+var myWeight = 60.0
 var FriendWeight = 80.5
 var height = 1.5
 
 
-var weightSum = myWeight + FriendWeight
+var WeightSum = myWeight - FriendWeight
 
 
 
@@ -38,36 +38,38 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
+var firstName1 = "abdallah"
+var lastName1 = "alshatili"
+var email1 = "abod123@gmail.com"
+var phoneNumber1 = "55095095"
+var age1 = 16
+var country1 = "kuwait"
+var area1 = "musharaf"
+var password = "6372826"
 var isKuwaiti = false
 
 //Person 2
-
-
-
-
-
-
-
-
+var firstName2 = "khalifa"
+var lastName2 = "alnaimi"
+var email2 = "khlofal@gmail.com"
+var phoneNumber2 = "51726370"
+var age2 = 18
+var country2 = "kuwait"
+var area2 = "alruwdah"
+var Password2 = "6483"
+var IsKuwaiti2 = false
 
 
 //Person 3
-
-
-
-
-
-
-
-
+var firstName3 = "ahmed"
+var lastName3 = "almanaa"
+var email3 = "ahmaddd21@gmail.com"
+var phoneNumber3 = "ssd77189"
+var age3 = 17
+var country3 = "kueait"
+var area3 = "jabriya"
+var Password3 = "al46376"
+var IsKuwaiti3 = false
 
 /*
 - - - -
@@ -82,3 +84,83 @@ var isKuwaiti = false
 
  
  */
+
+//comparison:
+
+firstName1 == firstName2
+firstName1 != firstName2
+
+lastName1 == lastName2
+lastName1 != lastName2
+
+area1 == area2
+area1 != area2
+
+area1 == area3
+area1 != area3
+
+area2 == area1
+area2 != area1
+
+area2 == area3
+area2 != area3
+
+area3 == area1
+area3 != area1
+
+area3 == area2
+area3 != area2
+
+age1 == age2
+age1 != age2
+
+age1 == age3
+age1 != age3
+
+age2 == age1
+age2 != age1
+
+age2 == age3
+age2 != age3
+
+age3 == age1
+age3 != age1
+
+age3 == age2
+age3 != age2
+
+age1 > age2
+age1 < age2
+
+age1 > age3
+age1 < age3
+
+age2 > age1
+age2 < age1
+
+age2 > age3
+age2 < age3
+
+age3 > age1
+age3 < age1
+
+age3 > age2
+age3 < age2
+
+age1 <= age2
+age1 >= age2
+
+age1 <= age3
+age1 >= age3
+
+age2 <= age1
+age2 >= age1
+
+age2 <= age3
+age2 >= age3
+
+age3 <= age1
+age3 >= age1
+
+age3 <= age2
+age3 >= age2
