@@ -7,15 +7,15 @@
 
 let name = "mohamed"
 
-let Name = "salem"
+let lastname = "salem"
 
 
 var myWeight = 60.0
-var FriendWeight = 80.5
+var friendWeight = 80.5
 var height = 1.5
 
 
-var WeightSum = myWeight - FriendWeight
+var weightSum = myWeight + friendWeight
 
 
 
@@ -42,7 +42,7 @@ var firstName1 = "abdallah"
 var lastName1 = "alshatili"
 var email1 = "abod123@gmail.com"
 var phoneNumber1 = "55095095"
-var age1 = 16
+var age1 = 20
 var country1 = "kuwait"
 var area1 = "musharaf"
 var password = "6372826"
@@ -65,7 +65,7 @@ var firstName3 = "ahmed"
 var lastName3 = "almanaa"
 var email3 = "ahmaddd21@gmail.com"
 var phoneNumber3 = "ssd77189"
-var age3 = 17
+var age3 = 18
 var country3 = "kueait"
 var area3 = "jabriya"
 var Password3 = "al46376"
@@ -164,3 +164,10 @@ age3 >= age1
 
 age3 <= age2
 age3 >= age2
+
+age1 == age2 && age2 == age3 && age3 == age1
+
+age1 == age2 || age2 == age3 || age3 == age1
+
+age1 > 18 && age2 > 18 && age3 > 18
+age1 > 18 || age2 > 18 || age3 > 18
